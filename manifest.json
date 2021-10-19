@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notch the website",
+  "version": "0.0.1",
+  "description": "notch, notch everywhere",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://*/*"]
+  }]
+
+}

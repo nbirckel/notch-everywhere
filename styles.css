@@ -1,0 +1,14 @@
+.notch {
+  width: 22ch;
+  height: 2.4vh;
+  border-radius: 0 0 50% 50%;
+  background: black;
+  position:fixed;
+  top:0;
+  left: calc(50% - 11ch);
+  margin : auto;
+  z-index : 9999999999;
+}
+body {
+  margin : 0 8px;
+}
